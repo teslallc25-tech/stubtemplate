@@ -1,13 +1,8 @@
-import Resume from './assets/component/resume'
+import Resume from './assets/component/resume/index'
 import './App.css'
 
 function App() {
-  return (
-    <>
-    <Resume />
-      
-    </>
-  )
+  return <Resume />
 }
 
 export default App

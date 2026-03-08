@@ -1,169 +1,159 @@
-import './index.css'
+import './index.css';
 
-function resume (){
-    return(
-        <div className='w-full flex  justify-center'>
-            <div className='w-full p-4 items-center justify-center '>
-                <div className='border-b border-black'>
-                    <div>
-                      <h1>AYINDE YUSUF IFEMI.</h1>
-                      <h3> <b>FRONTEND WEB DEVELOPER</b></h3>
-                   </div>
-                   <div className=' flex item-center justify-center gap-8 '>
-                     <div><p> +2348138867930</p></div>
-                     <div><p> ayindeyusufifemi@gmail.com</p></div>
-                     <div><p>Magodo GRA Lagos</p></div>
-                   </div>
-                </div>
+function Resume() {
+  return (
+    <div className="w-full flex justify-center bg-gray-100 p-8">
+      <div className="w-[850px] bg-white border shadow-lg">
 
-                <div className='w-full m-4 text-left'>
-                    <h2 className='border-b border-black w-fit'> PROFESSIONAL SUMARY </h2>
-                    <p className='m-8'>
-                        Creative and detail-focused Frontend Web Developer 
-                        skilled in building responsive websites with React
-                        . Passionate
-                        about turning UI designs into smooth, user-friendly 
-                        web experiences. Strong team player, fast learner, 
-                        and always eager to grow.
-                    </p>
+        {/* HEADER */}
+        <div className="bg-blue-600 text-white p-4 flex justify-between">
+          <div className="text-left">
+            <h1 className="text-lg font-bold">The Fresh Market</h1>
+            <p className="text-sm">13493 Atlantic Blvd, Jacksonville, FL 32225</p>
+          </div>
+          <div className="text-left">
+            <h2 className="text-lg font-semibold">EARNINGS STATEMENT</h2>
+            <p className="text-sm">Pay Date: 02/26/2026</p>
+            <p className="text-sm">Reporting Period: 01/27/2026 - 02/23/2026</p>
+          </div>
+        </div>
 
-                </div>
-                <div className='w-full m-4 text-left'>
-                    <h2 className='border-b border-black'>WORK EXPERIENCE</h2>
-                    
+        {/* EMPLOYEE INFO */}
+        <div className="flex justify-between p-4 border-b text-sm">
+          <div className="text-left">
+            <p><b>Employee</b></p>
+            <p>Donald Hicks</p>
+            <p className="text-xs">574 Vikings Ln</p>
+            <p className="text-xs">Atlantic Beach FL 32233-4151</p>
+          </div>
 
-                    <div className='w-full mt-8 flex gap-10 m-10'>
-                        <div className='w-[250px] h-fit'>
-                            <ul className='list-disc '>
-                                <li>
-                                    2025 <br />WEB DEVELOPER <br /> BAKES N CRAVE
-                                </li>
-                            </ul>
-
-                        </div>
-                        <div className='w-[400px]  h-fit'>
-                           <ul>
-                             <li className='list-disc'>
-                            Developed and managed a full eCommerce platform 
-                            for Bakes N Crave using React and Tailwind CSS for
-                            the frontend, and currently building backend 
-                            services with Python (Django) and MySQL.
-                            </li>
-                           </ul>
-
-                        </div>
-
-                    </div>
-                    <div className='w-full mt-8 flex gap-10 m-10'>
-                        <div className='w-[250px] h-fit'>
-                           <ul className='list-disc '>
-                            <li>
-                             2024 <br />FRONTEND WEB DEVELOPER <br /> SPACEAIR
-                           
-                            </li>
-                           </ul>
-                        </div>
-                        <div className='w-[400px] h-fit'>
-                           <ul>
-                             <li className='list-disc'>
-                                Designed and developed responsive landing 
-                                pages and frontend interfaces for various startups
-                                and e-commerce platforms using React, JavaScript,
-                                Tailwind CSS, and other modern frontend tools. 
-                                One notable project was SPACEAIR, 
-                                where I built the entire frontend 
-                                experience for their startup platform.
-                                
-                            </li>
-                           </ul>
-                        </div>
-                    
-                    </div>
-                    <div className='w-full mt-8 flex gap-10 m-10'>
-                        <div className='w-[250px] h-fit'>
-                            <ul className='list-disc '>
-                                <li>
-                                    2017-2018 <br /> IT SUPPORT SPECIALIST <br /> EKO FM
-                                </li>
-                            </ul>
-                        </div>
-                        <div className='w-[400px] h-fit'>
-                            <ul className='list-disc '>
-                                <li>
-                                    Initially joined Eko FM as part of a 6-month 
-                                    Student Work Experience Scheme (SIWES) during 
-                                    OND in Mass Communication.
-                                </li>
-                                <li>
-                                    Demonstrated strong technical ability and adaptability,
-                                    leading to being retained as an IT Support Specialist.
-                                </li>
-                                <li>
-                                    Provided technical support for on-air systems,
-                                    office hardware, and software troubleshooting.
-                                </li>
-                                <li>
-                                    Assisted with setting up live broadcasts, 
-                                    maintaining system uptime, and resolving 
-                                    network-related issues.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='w-full m-8 text-left'>
-                    <h2 className='border-b border-black'>EDUCATION</h2>
-                    <ul className='w full flex mt-4 gap-20'>
-                        <li className='list-disc ml-10'><h4>National Diploma</h4></li>
-                        <li><h4>Mass Communication</h4></li>
-                        <li><p>Kwara State Polytechnic Nigeria</p></li>
-                        <li><p>2016-2018</p></li>
-
-                    </ul>
-                </div>
-
-                <div className='w-full text-left mt-8 gap-4'>
-                    <h2 className='border-b border-black'>RELEVANT SKILL</h2>
-                    <div className='w-full flex m-4'>
-                        <div className='w-[200px] mt-4'>
-                        <h3><b>FRONTEND</b></h3>
-                        <ul className='list-disc list-inside'>
-                            <li>Html</li>
-                            <li>Css</li>
-                            <li>JavaScript</li>
-                            <li>React Js</li>
-                            <li>Tailwind Css</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                    </div>
-                    <div className='w-[200px] mt-4'>
-                        <h3><b>BACKEND</b></h3>
-                        <ul className='list-disc list-inside'>
-                            <li>Python</li>
-                            <li>Django</li>
-                            <li>Sql/MySql</li>
-                        </ul>
-                    </div>
-                    <div className='w-[250px] mt-4'>
-                        <h3><b>REFERENCE</b></h3>
-                        <p>BAKES N CRAVE</p>
-                        <p>+2348134697642</p>
-                    </div>
-                    <div className='w-[350px] mt-4'>
-                        <h3><b>PORTFOLIO</b></h3>
-                        <p>https://yusufproport.vercel.app/</p>
-                    </div>
-                </div>
-                    </div>
-                
-                
-                
-            
-            
+          <div className="flex flex-col justify-between text-sm">
+            <div className="flex justify-between w-32">
+              <span className="font-semibold">Employee No.</span>
+              <span className="text-right">8</span>
             </div>
+            <div className="flex justify-between w-32 mt-1">
+              <span className="font-semibold">SSN</span>
+              <span className="text-right">XXX-XX-6385</span>
+            </div>
+          </div>
+        </div>
+
+        {/* MAIN TABLES */}
+        <div className="grid grid-cols-2 gap-6 p-4">
+
+          {/* INCOME */}
+          <div className="border">
+            <div className="bg-blue-500 text-white font-semibold p-2 text-left">Income</div>
+            <table className="w-full text-sm">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="p-2 text-left">Income</th>
+                  <th className="p-2 text-right">Rate</th>
+                  <th className="p-2 text-right">Hours</th>
+                  <th className="p-2 text-right">Current Pay</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-2 text-left">Gross Earnings</td>
+                  <td className="p-2 text-right">15.24</td>
+                  <td className="p-2 text-right">80</td>
+                  <td className="p-2 text-right">1,219.20</td>
+                </tr>
+                <tr className="border-t font-semibold">
+                  <td className="p-2 text-left">YTD Gross</td>
+                  <td></td>
+                  <td></td>
+                  <td className="p-2 text-right">4,114.80</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* DEDUCTIONS */}
+          <div className="border">
+            <div className="bg-blue-500 text-white font-semibold p-2">Deductions</div>
+            <table className="w-full text-sm">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="p-2 text-left">Deductions</th>
+                  <th className="p-2 text-right">Total</th>
+                  <th className="p-2 text-right">YTD Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-2 text-left font-semibold">Statutory Deductions</td>
+                  <td className="text-left"></td>
+                  <td className="text-left"></td>
+                </tr>
+                <tr>
+                  <td className="p-2 text-left">FICA - Medicare</td>
+                  <td className="p-2 text-right">17.68</td>
+                  <td className="p-2 text-right">59.67</td>
+                </tr>
+                <tr>
+                  <td className="p-2 text-left">FICA - Social Security</td>
+                  <td className="p-2 text-right">75.59</td>
+                  <td className="p-2 text-right">255.12</td>
+                </tr>
+                <tr>
+                  <td className="p-2 text-left">Federal Tax</td>
+                  <td className="p-2 text-right">6.50</td>
+                  <td className="p-2 text-right">197.14</td>
+                </tr>
+                <tr>
+                  <td className="p-2 text-left">FL STATE TAX W/H</td>
+                  <td className="text-left"></td>
+                  <td className="text-left"></td>
+                </tr>
+                <tr className="border-t font-semibold">
+                  <td className="p-2 text-left">Total Deductions</td>
+                  <td className="p-2 text-right">99.77</td>
+                  <td className="p-2 text-right">511.93</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
         </div>
-    )
+
+        {/* TOTALS */}
+        <div className="border-t grid grid-cols-3 p-4 text-sm">
+          <div className="text-left">
+            <p className="font-semibold">YTD Gross</p>
+            <p>4,114.80</p>
+          </div>
+          <div className="text-left">
+            <p className="font-semibold">YTD Deductions</p>
+            <p>511.93</p>
+          </div>
+          <div className="text-right">
+            <p className="font-semibold">YTD Net Pay</p>
+            <p className="text-xl font-bold text-green-600">3,602.87</p>
+          </div>
+        </div>
+
+        {/* Flexed Totals Section */}
+        <div className="border-t p-4 text-sm flex flex-col gap-2">
+          <div className="flex justify-between">
+            <span className="font-semibold">Total</span>
+            <span>1,219.20</span>
+          </div>
+          <div className="flex justify-between">
+            <span className="font-semibold">Deductions</span>
+            <span>99.77</span>
+          </div>
+          <div className="flex justify-between mt-2">
+            <span className="font-semibold">Net Pay</span>
+            <span className="text-xl font-bold text-green-600">1,119.43</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
 }
-export default resume;
+
+export default Resume;
