@@ -15,8 +15,8 @@ function Resume() {
 
           <div className="text-left">
             <h2 className="text-lg font-semibold">EARNINGS STATEMENT</h2>
-            <p className="text-sm">Pay Date: 01/30/2026</p>
-            <p className="text-sm">Reporting Period: 12/28/2025 - 01/27/2026</p>
+            <p className="text-sm">Pay Date: 12/30/2025</p>
+            <p className="text-sm">Reporting Period: 11/27/2025 - 12/27/2025</p>
           </div>
         </div>
 
@@ -46,7 +46,6 @@ function Resume() {
 
         </div>
 
-
         {/* MAIN TABLES */}
         <div className="grid grid-cols-2 gap-6 p-4">
 
@@ -73,15 +72,15 @@ function Resume() {
                 <tr>
                   <td className="p-2 text-left">Gross Earnings</td>
                   <td className="p-2 text-right">14.30</td>
-                  <td className="p-2 text-right">80</td>
-                  <td className="p-2 text-right">1,144.00</td>
+                  <td className="p-2 text-right">198</td>
+                  <td className="p-2 text-right">2,831.40</td>
                 </tr>
 
                 <tr className="border-t font-semibold">
                   <td className="p-2 text-left">YTD Gross</td>
                   <td></td>
                   <td></td>
-                  <td className="p-2 text-right">1,144.00</td>
+                  <td className="p-2 text-right">33,976.80</td>
                 </tr>
 
               </tbody>
@@ -89,7 +88,6 @@ function Resume() {
             </table>
 
           </div>
-
 
           {/* DEDUCTIONS */}
           <div className="border">
@@ -120,32 +118,26 @@ function Resume() {
 
                 <tr>
                   <td className="p-2 text-left">FICA - Medicare</td>
-                  <td className="p-2 text-right">16.59</td>
-                  <td className="p-2 text-right">16.59</td>
+                  <td className="p-2 text-right">41.06</td>
+                  <td className="p-2 text-right">492.72</td>
                 </tr>
 
                 <tr>
                   <td className="p-2 text-left">FICA - Social Security</td>
-                  <td className="p-2 text-right">70.93</td>
-                  <td className="p-2 text-right">70.93</td>
+                  <td className="p-2 text-right">175.55</td>
+                  <td className="p-2 text-right">2,106.60</td>
                 </tr>
 
                 <tr>
                   <td className="p-2 text-left">Federal Tax</td>
-                  <td className="p-2 text-right">0.00</td>
-                  <td className="p-2 text-right">0.00</td>
-                </tr>
-
-                <tr>
-                  <td className="p-2 text-left">FL STATE TAX W/H</td>
-                  <td className="p-2 text-right">0.00</td>
-                  <td className="p-2 text-right">0.00</td>
+                  <td className="p-2 text-right">182.93</td>
+                  <td className="p-2 text-right">2,195.16</td>
                 </tr>
 
                 <tr className="border-t font-semibold">
                   <td className="p-2 text-left">Total Deductions</td>
-                  <td className="p-2 text-right">87.52</td>
-                  <td className="p-2 text-right">87.52</td>
+                  <td className="p-2 text-right">399.54</td>
+                  <td className="p-2 text-right">4,794.48</td>
                 </tr>
 
               </tbody>
@@ -156,47 +148,45 @@ function Resume() {
 
         </div>
 
-
         {/* TOTALS */}
         <div className="border-t grid grid-cols-3 gap-6 p-4 text-sm">
 
           <div className="text-left">
             <p className="font-semibold">YTD Gross</p>
-            <p>1,144.00</p>
+            <p>33,976.80</p>
           </div>
 
           <div className="text-left">
             <p className="font-semibold">YTD Deductions</p>
-            <p>87.52</p>
+            <p>4,794.48</p>
           </div>
 
           <div className="text-right">
             <p className="font-semibold">YTD Net Pay</p>
             <p className="text-xl font-bold text-green-600">
-              1,056.48
+              29,182.32
             </p>
           </div>
 
         </div>
-
 
         {/* TOTAL SUMMARY */}
         <div className="border-t p-4 text-sm flex flex-col gap-2">
 
           <div className="flex justify-between">
             <span className="font-semibold">Total</span>
-            <span>1,144.00</span>
+            <span>2,831.40</span>
           </div>
 
           <div className="flex justify-between">
             <span className="font-semibold">Deductions</span>
-            <span>87.52</span>
+            <span>399.54</span>
           </div>
 
           <div className="flex justify-between mt-2">
             <span className="font-semibold">Net Pay</span>
             <span className="text-xl font-bold text-green-600">
-              1,056.46
+              2,431.86
             </span>
           </div>
 
